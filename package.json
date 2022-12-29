@@ -10,12 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/lucastak/hooks-tdd-patterns.git"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucastak/hooks-tdd-patterns/issues"
   },
-  "homepage": "https://github.com/lucastak/hooks-tdd-patterns#readme"
+  "homepage": "https://github.com/lucastak/hooks-tdd-patterns#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.5.0"
+  }
 }
