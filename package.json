@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
-    "test:staged": "jest -- --findRelatedTests",
-    "test:ci": "jest -- --coverage"
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
 
   },
   "repository": {
