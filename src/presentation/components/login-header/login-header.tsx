@@ -6,8 +6,8 @@ const LoginHeader: React.FC= () => {
     return(
         <header className={styles.header}>
             <Logo />
-        <h1>Enquetes para Programadores</h1>
-    </header>
+            <h1>Enquetes para Programadores</h1>
+        </header>
     )
 }
 
