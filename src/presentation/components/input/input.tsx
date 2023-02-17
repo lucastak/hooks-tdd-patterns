@@ -10,9 +10,6 @@ const Input: React.FC<Props>= (props: Props) => {
     const {state, setState} = useContext(Context)
     const error = state[`${props.name}Error`]
 
-    console.log("props", props);
-
-
     const enableInput = (event: React.FocusEvent<HTMLInputElement, Element>) => {
         event.target.readOnly = false
     }
@@ -25,11 +22,11 @@ const Input: React.FC<Props>= (props: Props) => {
     }
 
     const getStatus = (): string => {
-        return '🔴'
+        return error ? '🔴' : '🟢'
     }
 
     const getTitle = (): string => {
-        return error
+        return error || 'Tudo certo!'
     }
 
     return(
