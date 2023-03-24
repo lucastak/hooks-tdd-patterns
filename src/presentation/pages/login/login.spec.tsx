@@ -150,7 +150,7 @@ describe("", () => {
     //     jest.spyOn(authenticationSpy, "auth").mockReturnValueOnce(Promise.reject(error))
     //     simulateValidSubmit(sut)
     //     const errorWrap = sut.getByTestId("error-wrap")
-    //     await waitFor(() => mainError)
+    //     await waitFor(() => errorWrap)
     //     const mainError = sut.getByTestId("main-error")
     //     expect(mainError.textContent).toBe(error.message)
     //     expect(errorWrap.childElementCount).toBe(1)
